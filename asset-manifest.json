@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.b46101b0.chunk.css",
-    "main.js": "/static/js/main.fce8ad0f.chunk.js",
-    "main.js.map": "/static/js/main.fce8ad0f.chunk.js.map",
+    "main.css": "/static/css/main.e3775cf8.chunk.css",
+    "main.js": "/static/js/main.f64e401e.chunk.js",
+    "main.js.map": "/static/js/main.f64e401e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c699ed78.js",
     "runtime-main.js.map": "/static/js/runtime-main.c699ed78.js.map",
     "static/css/2.43e16d2f.chunk.css": "/static/css/2.43e16d2f.chunk.css",
-    "static/js/2.aae40558.chunk.js": "/static/js/2.aae40558.chunk.js",
-    "static/js/2.aae40558.chunk.js.map": "/static/js/2.aae40558.chunk.js.map",
+    "static/js/2.091bdf32.chunk.js": "/static/js/2.091bdf32.chunk.js",
+    "static/js/2.091bdf32.chunk.js.map": "/static/js/2.091bdf32.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.43e16d2f.chunk.css.map": "/static/css/2.43e16d2f.chunk.css.map",
-    "static/css/main.b46101b0.chunk.css.map": "/static/css/main.b46101b0.chunk.css.map",
-    "static/js/2.aae40558.chunk.js.LICENSE.txt": "/static/js/2.aae40558.chunk.js.LICENSE.txt",
+    "static/css/main.e3775cf8.chunk.css.map": "/static/css/main.e3775cf8.chunk.css.map",
+    "static/js/2.091bdf32.chunk.js.LICENSE.txt": "/static/js/2.091bdf32.chunk.js.LICENSE.txt",
     "static/media/a.37e7d841.svg": "/static/media/a.37e7d841.svg",
     "static/media/abc.085ebd64.svg": "/static/media/abc.085ebd64.svg",
     "static/media/style.css": "/static/media/background.f2f0e360.png",
@@ -21,6 +21,7 @@
     "static/media/logo_clrd.d1f6ae95.svg": "/static/media/logo_clrd.d1f6ae95.svg",
     "static/media/logo_wb.9601df82.svg": "/static/media/logo_wb.9601df82.svg",
     "static/media/myapps.982d2f88.svg": "/static/media/myapps.982d2f88.svg",
+    "static/media/premium.9e1666f4.svg": "/static/media/premium.9e1666f4.svg",
     "static/media/rules.42e8b957.svg": "/static/media/rules.42e8b957.svg",
     "static/media/separator.2754b7e9.svg": "/static/media/separator.2754b7e9.svg",
     "static/media/simplecell.5aa91c5f.svg": "/static/media/simplecell.5aa91c5f.svg",
@@ -29,8 +30,8 @@
   "entrypoints": [
     "static/js/runtime-main.c699ed78.js",
     "static/css/2.43e16d2f.chunk.css",
-    "static/js/2.aae40558.chunk.js",
-    "static/css/main.b46101b0.chunk.css",
-    "static/js/main.fce8ad0f.chunk.js"
+    "static/js/2.091bdf32.chunk.js",
+    "static/css/main.e3775cf8.chunk.css",
+    "static/js/main.f64e401e.chunk.js"
   ]
 }
