@@ -29,18 +29,22 @@
 <script type="text/javascript" src="libs/tonweb-0.0.25.js"></script>
 
 <script>
-    const provider = window.ton;
+    // Use tonweb
 
-    if (!provider) {
-        alert('TON Wallet Plugin not installed');
-    } else {
+    const tonweb = new TonWeb();
+
+    // Use extension
+
+    const onTonReady = () => {
+        console.log('tonready');
+
+        if (!window.tonProtocolVersion || window.tonProtocolVersion < 1) {
+            alert('Please update your TON Wallet Extension');
+            return;
+        }
+
+        const provider = window.ton;
         console.log('isTonWallet=', provider.isTonWallet);
-
-        // A) Use tonweb
-
-        var tonweb = new TonWeb();
-
-        // B) Use extension
 
         const connect = async () => {
             // Request account access if needed
@@ -49,6 +53,8 @@
             const account = accounts[0] // We currently only ever provide a single account,
                                         // but the array gives us some room to grow.
             showAccountAddress(account);
+
+            console.log(await provider.send('ton_requestWallets'));
         }
 
         document.getElementById('button').addEventListener('click', async () => {
@@ -98,6 +104,14 @@
         function showAccountAddress(address) {
             document.getElementById('address').innerText = address;
         }
+    }
+
+    // Initialize TON
+
+    if (window.ton) {
+        onTonReady();
+    } else {
+        window.addEventListener('tonready', () => onTonReady(), false);
     }
 </script>
 </body>
