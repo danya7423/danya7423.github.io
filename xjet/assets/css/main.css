@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Inter';
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #121212;
+}
+
+a {
+    text-decoration: none;
+    color: #3FA3FF;
+}
+
+.app {
+    padding: 16px;
+}
+
+.app .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 14px;
+}
+
+.app .header .title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 26px;
+
+    /* text_color */
+
+    color: #FFFFFF;
+}
+
+.app .header .subtitle {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 12px;
+    color: #FFFFFF;
+}
+
+.app .tabs {
+    display: flex;
+    align-items: center;
+    overflow: auto;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.app .tabs .tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: fit-content;
+    padding: 0px 20px;
+    height: 40px;
+    background: #404040;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+/* .app .tabs .tab:hover {
+    background: rgba(255, 255, 255, 0.1);
+} */
+
+.app .tabs .active {
+    background: #8C8C8C;
+}
+
+.app .transactions {
+    margin-top: 30px;
+}
+
+.app .transactions .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app .transactions .item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.app .transactions .left {
+    display: flex;
+    align-items: center;
+}
+
+.app .transactions .left img {
+    width: 34px;
+    height: 34px;
+    margin-right: 10px;
+}
+
+.app .transactions .left .cell {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.app .transactions .left .cell .title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+
+    color: #FFFFFF;
+    margin-bottom: 4px;
+}
+
+.app .transactions .left .cell .subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+
+    color: #FFFFFF;
+}
+
+.app .transactions .right {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.app .transactions .red {
+    color: #C2403B;
+}
+
+.app .transactions .green {
+    color: #13AD76;
+}
